@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#### ADDED
+
+# --- Dane (nie wrzucamy, instrukcja pobrania w data/README.md) ---
+data/*
+!data/README.md
+*.csv
+*.zip
+*.bak
+*.mdf
+*.ldf
+
+# --- Środowisko Python ---
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# --- Pliki systemowe / edytora ---
+.DS_Store
+Thumbs.db
+.vscode/
+# --- Sekrety ---
+.env
