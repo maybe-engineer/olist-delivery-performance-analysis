@@ -1,0 +1,4 @@
+CREATE DATABASE olist;
+GO
+USE olist;
+GO
