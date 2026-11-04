@@ -9,8 +9,6 @@ products ||--o{ order_items : sprzedawany_jako
 sellers ||--o{ order_items : realizuje
 category_translation ||--o{ products : tlumaczy
 customers }o..o{ geolocation : kod_pocztowy
-Blok 0 – Start portfolio DA (Olist): kurs krok po kroku
-Page 14 of 26
 sellers }o..o{ geolocation : kod_pocztowy
 orders {
 varchar order_id PK
