@@ -30,16 +30,11 @@ Schemat relacji: [docs/schema.md](docs/schema.md)
 ## Pytania analityczne i hipotezy
 | # | Pytanie | Hipoteza |
 |---|---|---|
-| 1 | Jaki odsetek zamówień dostarczono po terminie i jak to się zmienia w
-czasie? | Opóźnienia rosną w szczycie sprzedaży |
-| 2 | Który etap procesu najbardziej wydłuża dostawę? | Największy udział ma
-transport, największą zmienność przekazanie paczki |
-| 3 | Jak opóźnienie wpływa na ocenę klienta? | Opóźnione zamówienia mają
-wyraźnie niższe oceny |
-| 4 | W których stanach i kategoriach opóźnienia są największe? | Odległe
-stany mają więcej opóźnień |
-| 5 | Czy mała grupa sprzedawców generuje większość opóźnień? | Tak (zasada
-Pareto) |
+| 1 | Jaki odsetek zamówień dostarczono po terminie i jak to się zmienia w czasie? | Opóźnienia rosną w szczycie sprzedaży |
+| 2 | Który etap procesu najbardziej wydłuża dostawę? | Największy udział ma transport, największą zmienność przekazanie paczki |
+| 3 | Jak opóźnienie wpływa na ocenę klienta? | Opóźnione zamówienia mają wyraźnie niższe oceny |
+| 4 | W których stanach i kategoriach opóźnienia są największe? | Odległe stany mają więcej opóźnień |
+| 5 | Czy mała grupa sprzedawców generuje większość opóźnień? | Tak (zasada Pareto) |
 
 ## Definicje metryk
 - **Dostarczone:** `order_status = 'delivered'` i niepusta data dostawy
