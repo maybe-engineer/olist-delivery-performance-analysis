@@ -36,6 +36,16 @@ Schemat relacji: [docs/schema.md](docs/schema.md)
 | 4 | W których stanach i kategoriach opóźnienia są największe? | Odległe stany mają więcej opóźnień |
 | 5 | Czy mała grupa sprzedawców generuje większość opóźnień? | Tak (zasada Pareto) |
 
+## Odpowiedzi (wstępne – próbka 5 000)
+
+| Nr pytania | Wynik |
+|---|---|
+| 1 |  Po terminie dostarczono 8,623% zamówień (dotyczy zamówień dostarczonych)|
+| 2 |  Dostawę najbardziej wydłuża etap transportu ze średnią 9,5 dnia, medianą 7,09 dnia i P90 na poziomie 19,57 dnia. Wberw założeniom sam transport wykazuje się największą zmiennością (9,29 dnia), gdzie etap przekazania wykazuje zmiennoość na poziomie 3,58 dnia |
+| 3 |   |
+| 4 |   |
+| 5 |   |
+
 ## Definicje metryk
 - **Dostarczone:** `order_status = 'delivered'` i niepusta data dostawy
 - **Opóźnione:** data dostawy późniejsza niż obiecana
